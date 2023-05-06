@@ -3851,6 +3851,8 @@
                     spaceBetween: 15,
                     centeredSlides: true,
                     initialSlide: slidesCount,
+                    loopedSlides: 2,
+                    loop: true,
                     speed: 800,
                     navigation: {
                         prevEl: ".services__button_prev",
