@@ -3930,7 +3930,7 @@
                     const pageSlideContent = pageSlide.querySelector(".page");
                     if (pageSlideContent) {
                         const pageSlideContentHight = pageSlideContent.offsetHeight;
-                        if (pageSlideContentHight > window.innerHeight) {
+                        if (pageSlideContentHight > window.innerHeight || window.innerWidth < 767.98) {
                             wrapper.classList.add("_free");
                             pageSlider.params.freeMode.enabled = true;
                             break;
